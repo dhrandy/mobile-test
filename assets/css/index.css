@@ -130,6 +130,7 @@ a:hover {
 
 #description{
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 div.row {
@@ -158,9 +159,23 @@ div.row {
     margin-top: 10px;
 }
 
+.desktop-form-container{
+    text-align: center;
+}
+
 .desktop-form {
-    margin-left: 37%;
+    display: inline-block;
+    text-align: left;
     width: 300px;
+}
+
+.centered-list {
+    text-align: center;
+}
+
+.desktop-centered {
+    display: inline-block;
+    text-align: left;
 }
 
 /* Mobile */
@@ -198,6 +213,7 @@ div.row {
     .phone-mobile {
 		text-align: center;
     }
+
     
    .item {
         margin-left: 20%;
