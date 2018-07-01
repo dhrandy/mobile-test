@@ -48,8 +48,16 @@ a:hover {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;;
+    height: 500px;
     /* width: 100%; */
+}
+
+#main-desktop-form {
+    background: url('../imgs/main-desktop-form.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 
 /* Bottom Image */
@@ -149,6 +157,7 @@ div.row {
 .ui.header:first-child {
     margin-top: 10px;
 }
+
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
