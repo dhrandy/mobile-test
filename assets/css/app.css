@@ -1,0 +1,38 @@
+.container-margin {
+    margin-top: 20px;
+}
+
+.maping {
+    width: 400px;
+}
+
+.ui.menu {
+    border-radius: 0px !important;
+    height: 50px;
+}
+
+.collapse {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px;
+}
+
+.ui.grid>.row {
+    padding:  0;
+}
+
+.r-space {
+    margin-left: 2em;
+}
+
+
+
+/* Maps */
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+
+         #map {
+            height: 700px;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
