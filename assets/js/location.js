@@ -7,6 +7,7 @@ var markers = []
 function sendLocation() {
     $("#sendAddress").on("click", function() {
         event.preventDefault()
+        console.log ("search button clicked")
         var locationData = {
             street: $("#street").val(),
             city: $("#city").val(),

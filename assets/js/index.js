@@ -1,46 +1,47 @@
 $(function(){
 	$("#find").click(function(){
-		$(".test").modal('show');
+		$(".address-form").modal('show');
 	});
-	$(".test").modal({
+	$(".address-form").modal({
         closable: true,
-        width: 600
 	});
 });
 
-var map
-var coords
-var markers = []
+// var map
+// var coords
+// var markers = []
 
-function sendLocation() {
-    $("#sendAddress").on("click", function() {
-        console.log("button click")
-        event.preventDefault()
-        var locationData = {
-            street: $("#street").val(),
-            city: $("#city").val(),
-            state: $("#state").val(),
-            zip: $("#zip").val()
-        }
+// function sendLocation() {
+//     $("#sendAddress").on("click", function() {
+//         event.preventDefault()
+//         console.log("button click")
+//         var locationData = {
+//             street: $("#street").val(),
+//             city: $("#city").val(),
+//             state: $("#state").val(),
+//             zip: $("#zip").val()
+//         }
 
-        var streetArray = []
-        streetArray = locationData.street.split(" ").join("+")
+//         var streetArray = []
+//         streetArray = locationData.street.split(" ").join("+")
         
-        locationData.street = streetArray
+//         locationData.street = streetArray
 
-        console.log(locationData)
+//         console.log(locationData)
 
-        $.ajax({
-            url: "https://maps.googleapis.com/maps/api/geocode/json?address=" + locationData.street + "," + locationData.city + ","+locationData.state + "&key=AIzaSyCA5M_7o7Zb7AqxnEMLMz_h3dpGr1v8vTg",
-            method: "GET"
-        })
-        .then(function(result) {
-            for (i = 0; i < result.results.length; i++) {
-                coords = result.results[i].geometry.location
-            }
-            console.log(coords)
-        })
-    })
-}
+//         $.ajax({
+//             url: "https://maps.googleapis.com/maps/api/geocode/json?address=" + locationData.street + "," + locationData.city + ","+locationData.state + "&key=AIzaSyCA5M_7o7Zb7AqxnEMLMz_h3dpGr1v8vTg",
+//             method: "GET"
+//         })
+//         .then(function(result) {
+//             for (i = 0; i < result.results.length; i++) {
+//                 coords = result.results[i].geometry.location
+//             }
+//             console.log(coords)
+//         })
+//     })
+// }
 
-console.log("location")
+// sendLocation();
+
+// console.log("location")
