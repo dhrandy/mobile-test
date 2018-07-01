@@ -158,6 +158,10 @@ div.row {
     margin-top: 10px;
 }
 
+.desktop-form {
+    margin-left: 37%;
+    width: 300px;
+}
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
