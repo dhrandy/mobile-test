@@ -38,6 +38,8 @@ a:hover {
     text-align: center;
     margin:0px;
     padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 /* Top Image */
@@ -144,6 +146,10 @@ div.row {
     padding: 20px;
 }
 
+.ui.header:first-child {
+    margin-top: 10px;
+}
+
 /* Mobile */
 @media only screen and (max-width: 767px) {
     .show-desktop {
@@ -188,6 +194,24 @@ div.row {
     .ui.blue.button {
         margin-top: 3px;
     }
+
+    .model {
+        margin: 10px;
+    }
+    
+    .form {
+        padding: 10px;
+    }
+
+    /* .ui.mini.modal {
+        width: 95%;
+        margin: 0px;
+    }
+
+    .modal {
+        display: block !important;
+        width: 95%;
+    } */
 
 
 

@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
 	$("#find").click(function(){
 		$(".address-form").modal('show');
 	});
