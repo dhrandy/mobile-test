@@ -139,10 +139,6 @@ div.row {
     text-align: center
 }
 
-.form {
-    padding: 20px;
-}
-
 .ui.header:first-child {
     margin-top: 10px;
 }
@@ -170,6 +166,12 @@ div.row {
 .item {
     font-size: 1.3rem;
 }
+
+.add-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 
 /* Mobile */
 
@@ -234,10 +236,42 @@ div.row {
     .item {
         font-size: 14px;
     }
+
+    #main-desktop-form {
+        height: 200px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 2000000px) {
     .show-mobile {
         display: none !important;
     }
+}
+
+
+
+/* Add a place page */
+
+#food {
+    margin-right: 59px;
+}
+
+#drinks {
+    margin-right: 50px;
+}
+
+#atmosphere {
+    margin-right: 17px;
+}
+
+#staff {
+    margin-right: 62px;
+}
+
+#cleanliness {
+    margin-right: 24px;
+}
+
+#parking {
+    margin-right: 45px;
 }
