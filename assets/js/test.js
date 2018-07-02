@@ -1,10 +1,16 @@
 $(document).ready(function(){
-	$("#find").click(function(){
-		$(".address-form").modal('show');
-	});
-	$(".address-form").modal({
-        closable: true,
-	});
-});
+	$('#left-sidebar-toggle').click(function(){
+	$('.sidebar')
+	.sidebar('toggle', ".menu")
+})
+})
 
-$('.address-form').modal('refresh');
+
+function myFunction() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+	    x.className += " responsive";
+	} else {
+	    x.className = "topnav";
+	}
+    }

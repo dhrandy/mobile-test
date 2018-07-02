@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<title>NOPE</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript">
 	</script>
 	<link href="assets/semantic/dist/semantic.min.css" media="screen" rel="stylesheet" type="text/css">
@@ -14,33 +16,26 @@
 	<script src="assets/js/test.js" type="text/javascript">
 	</script>
 </head>
+
 <body>
-    <button class="ui blue button add-find find" id="find">FIND A PLACE</button> 
-    <!-- Modal -->
-	<div class="ui mini modal address-form">
-		<i class="close icon"></i>
-		<div class="header">
-			FIND A PLACE
-		</div>
-		<div class="ui form">
-			<div class="field">
-				<label>Street</label> <input id="street" name="street" placeholder="Street Address" type="text">
-			</div>
-			<div class="field">
-				<label>City</label> <input id="city" name="city" placeholder="City" type="text">
-			</div>
-			<div class="field">
-				<label>State</label> <input id="state" name="state" placeholder="State" type="text">
-			</div>
-			<div class="field">
-				<label>Zip Code</label> <input id="zip" name="zip" placeholder="Zip Code" type="text">
-			</div>
-			<div class="actions">
-				<div class="ui button" id="sendAddress">
-					Search
-				</div>
-			</div>
-		</div>
+
+	<div class="topnav" id="myTopnav">
+		<a href="#home">home</a>
+		<a href="#news">News</a>
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
 	</div>
+
+	<div style="padding-left:16px">
+		<h2>Responsive Topnav Example</h2>
+		<p>Resize the browser window to see how it works.</p>
+	</div>
+
+
+
 </body>
+
 </html>
