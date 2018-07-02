@@ -118,7 +118,8 @@ a:hover {
 
 #description {
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 26vh;
+    overflow-y: visible;
 }
 
 div.row {
