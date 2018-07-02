@@ -118,8 +118,8 @@ a:hover {
 
 #description {
     padding: 20px;
-    margin-bottom: 21vh;
-    overflow-y: visible;
+    margin-bottom: 30px;;
+    height: auto;
 }
 
 div.row {
@@ -195,7 +195,7 @@ div.row {
     }
 
     #description {
-        height: 20rem;
+        margin-bottom: 20px;
     }
     .ui.container {
         margin-left: 0em !important;
@@ -229,10 +229,6 @@ div.row {
 
     .centered1 {
         font-size: 28px;
-    }
-
-    #description {
-        margin-bottom: 70px;
     }
 
     .item {
