@@ -153,6 +153,12 @@ div.row {
     width: 300px;
 }
 
+.desktop-form2 {
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+}
+
 .centered-list {
     text-align: center;
     padding: 20px;
@@ -274,4 +280,8 @@ div.row {
 
 #parking {
     margin-right: 45px;
+}
+
+.review-header {
+    margin-bottom: 30px;
 }
