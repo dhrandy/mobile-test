@@ -61,6 +61,14 @@ a:hover {
     height: 300px;
 }
 
+#main-desktop-form2 {
+    background: url('../imgs/main-desktop-form2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
 /* Bottom Image */
 
 #second-img {
@@ -151,6 +159,7 @@ div.row {
     display: inline-block;
     text-align: left;
     width: 300px;
+    margin-bottom:30px;
 }
 
 .desktop-form2 {
@@ -175,6 +184,10 @@ div.row {
 
 .add-button {
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ui.button {
     margin-bottom: 20px;
 }
 
@@ -246,7 +259,12 @@ div.row {
     #main-desktop-form {
         height: 200px;
     }
+
+    #main-desktop-form2 {
+        height: 200px;
+    }
 }
+
 
 @media only screen and (min-width: 768px) and (max-width: 2000000px) {
     .show-mobile {
@@ -282,6 +300,6 @@ div.row {
     margin-right: 45px;
 }
 
-.review-header {
+.ui.horizontal.divider {
     margin-bottom: 30px;
 }
